@@ -11,7 +11,7 @@ struct MainTabView: View {
     @State private var selectedTab = 0
     var body: some View {
         TabView {
-         Text("Feed")
+        Feed_View()
                 .tabItem { VStack {
                     Image(systemName:  selectedTab == 0 ? "house.fill" : "house")
                         .environment(\.symbolVariants , selectedTab == 0 ? .fill : .none)
