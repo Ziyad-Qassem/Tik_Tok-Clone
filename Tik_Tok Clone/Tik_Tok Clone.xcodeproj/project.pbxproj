@@ -16,6 +16,8 @@
 		DCD7FBA62C69BB3100E26DE3 /* Feed_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA52C69BB3100E26DE3 /* Feed_Cell.swift */; };
 		DCD7FBA82C6A794600E26DE3 /* Friends_search_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA72C6A794600E26DE3 /* Friends_search_view.swift */; };
 		DCD7FBAA2C6A7C5B00E26DE3 /* User_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA92C6A7C5B00E26DE3 /* User_Cell.swift */; };
+		DCD7FBAC2C6A8CD800E26DE3 /* Notification_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBAB2C6A8CD800E26DE3 /* Notification_view.swift */; };
+		DCD7FBAE2C6A8CE900E26DE3 /* Notification_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBAD2C6A8CE900E26DE3 /* Notification_Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		DCD7FBA52C69BB3100E26DE3 /* Feed_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed_Cell.swift; sourceTree = "<group>"; };
 		DCD7FBA72C6A794600E26DE3 /* Friends_search_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends_search_view.swift; sourceTree = "<group>"; };
 		DCD7FBA92C6A7C5B00E26DE3 /* User_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Cell.swift; sourceTree = "<group>"; };
+		DCD7FBAB2C6A8CD800E26DE3 /* Notification_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification_view.swift; sourceTree = "<group>"; };
+		DCD7FBAD2C6A8CE900E26DE3 /* Notification_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification_Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		DCD7FB9C2C698A3100E26DE3 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				DCD7FBAB2C6A8CD800E26DE3 /* Notification_view.swift */,
+				DCD7FBAD2C6A8CE900E26DE3 /* Notification_Cell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -283,9 +289,11 @@
 				DCD7FBA62C69BB3100E26DE3 /* Feed_Cell.swift in Sources */,
 				DCD7FBA42C69B77400E26DE3 /* Feed_View.swift in Sources */,
 				DCD7FB832C6989DA00E26DE3 /* ContentView.swift in Sources */,
+				DCD7FBAC2C6A8CD800E26DE3 /* Notification_view.swift in Sources */,
 				DCD7FB812C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift in Sources */,
 				DCD7FBA82C6A794600E26DE3 /* Friends_search_view.swift in Sources */,
 				DCD7FBAA2C6A7C5B00E26DE3 /* User_Cell.swift in Sources */,
+				DCD7FBAE2C6A8CE900E26DE3 /* Notification_Cell.swift in Sources */,
 				DCD7FBA22C698B7900E26DE3 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
