@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC9B25E22C6ADDC500F98619 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */; };
+		DC9B25E42C6ADF2000F98619 /* UserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */; };
+		DC9B25E82C6AE2A700F98619 /* UserStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */; };
+		DC9B25EB2C6AE36200F98619 /* PostsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25EA2C6AE36200F98619 /* PostsGridView.swift */; };
 		DCD7FB812C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FB802C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift */; };
 		DCD7FB832C6989DA00E26DE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FB822C6989DA00E26DE3 /* ContentView.swift */; };
 		DCD7FB852C6989DB00E26DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7FB842C6989DB00E26DE3 /* Assets.xcassets */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeaderView.swift; sourceTree = "<group>"; };
+		DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatesView.swift; sourceTree = "<group>"; };
+		DC9B25EA2C6AE36200F98619 /* PostsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsGridView.swift; sourceTree = "<group>"; };
 		DCD7FB7D2C6989DA00E26DE3 /* Tik_Tok Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tik_Tok Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD7FB802C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tik_Tok_CloneApp.swift; sourceTree = "<group>"; };
 		DCD7FB822C6989DA00E26DE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC9B25E52C6AE26300F98619 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */,
+				DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */,
+				DC9B25EA2C6AE36200F98619 /* PostsGridView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DC9B25E62C6AE26B00F98619 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DCD7FB742C6989DA00E26DE3 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +199,8 @@
 		DCD7FB9B2C698A3000E26DE3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				DC9B25E62C6AE26B00F98619 /* Views */,
+				DC9B25E52C6AE26300F98619 /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -287,12 +315,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD7FBA62C69BB3100E26DE3 /* Feed_Cell.swift in Sources */,
+				DC9B25EB2C6AE36200F98619 /* PostsGridView.swift in Sources */,
 				DCD7FBA42C69B77400E26DE3 /* Feed_View.swift in Sources */,
+				DC9B25E42C6ADF2000F98619 /* UserProfileHeaderView.swift in Sources */,
 				DCD7FB832C6989DA00E26DE3 /* ContentView.swift in Sources */,
 				DCD7FBAC2C6A8CD800E26DE3 /* Notification_view.swift in Sources */,
 				DCD7FB812C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift in Sources */,
 				DCD7FBA82C6A794600E26DE3 /* Friends_search_view.swift in Sources */,
 				DCD7FBAA2C6A7C5B00E26DE3 /* User_Cell.swift in Sources */,
+				DC9B25E22C6ADDC500F98619 /* CurrentUserProfileView.swift in Sources */,
+				DC9B25E82C6AE2A700F98619 /* UserStatesView.swift in Sources */,
 				DCD7FBAE2C6A8CE900E26DE3 /* Notification_Cell.swift in Sources */,
 				DCD7FBA22C698B7900E26DE3 /* MainTabView.swift in Sources */,
 			);
