@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC9B25E22C6ADDC500F98619 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */; };
+		DC9B25E42C6ADF2000F98619 /* UserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */; };
+		DC9B25E82C6AE2A700F98619 /* UserStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */; };
+		DC9B25EB2C6AE36200F98619 /* PostsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25EA2C6AE36200F98619 /* PostsGridView.swift */; };
+		DC9B25ED2C6D5A7800F98619 /* Post_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25EC2C6D5A7800F98619 /* Post_Model.swift */; };
+		DC9B25F22C6D5E1300F98619 /* Feed_View_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25F12C6D5E1300F98619 /* Feed_View_Model.swift */; };
 		DCD7FB812C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FB802C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift */; };
 		DCD7FB832C6989DA00E26DE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FB822C6989DA00E26DE3 /* ContentView.swift */; };
 		DCD7FB852C6989DB00E26DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7FB842C6989DB00E26DE3 /* Assets.xcassets */; };
 		DCD7FB882C6989DB00E26DE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7FB872C6989DB00E26DE3 /* Preview Assets.xcassets */; };
+		DCD7FBA22C698B7900E26DE3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA12C698B7900E26DE3 /* MainTabView.swift */; };
+		DCD7FBA42C69B77400E26DE3 /* Feed_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA32C69B77400E26DE3 /* Feed_View.swift */; };
+		DCD7FBA62C69BB3100E26DE3 /* Feed_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA52C69BB3100E26DE3 /* Feed_Cell.swift */; };
+		DCD7FBA82C6A794600E26DE3 /* Friends_search_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA72C6A794600E26DE3 /* Friends_search_view.swift */; };
+		DCD7FBAA2C6A7C5B00E26DE3 /* User_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBA92C6A7C5B00E26DE3 /* User_Cell.swift */; };
+		DCD7FBAC2C6A8CD800E26DE3 /* Notification_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBAB2C6A8CD800E26DE3 /* Notification_view.swift */; };
+		DCD7FBAE2C6A8CE900E26DE3 /* Notification_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7FBAD2C6A8CE900E26DE3 /* Notification_Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeaderView.swift; sourceTree = "<group>"; };
+		DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatesView.swift; sourceTree = "<group>"; };
+		DC9B25EA2C6AE36200F98619 /* PostsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsGridView.swift; sourceTree = "<group>"; };
+		DC9B25EC2C6D5A7800F98619 /* Post_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post_Model.swift; sourceTree = "<group>"; };
+		DC9B25F12C6D5E1300F98619 /* Feed_View_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed_View_Model.swift; sourceTree = "<group>"; };
 		DCD7FB7D2C6989DA00E26DE3 /* Tik_Tok Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tik_Tok Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD7FB802C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tik_Tok_CloneApp.swift; sourceTree = "<group>"; };
 		DCD7FB822C6989DA00E26DE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCD7FB842C6989DB00E26DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD7FB872C6989DB00E26DE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCD7FBA12C698B7900E26DE3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		DCD7FBA32C69B77400E26DE3 /* Feed_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed_View.swift; sourceTree = "<group>"; };
+		DCD7FBA52C69BB3100E26DE3 /* Feed_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed_Cell.swift; sourceTree = "<group>"; };
+		DCD7FBA72C6A794600E26DE3 /* Friends_search_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends_search_view.swift; sourceTree = "<group>"; };
+		DCD7FBA92C6A7C5B00E26DE3 /* User_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Cell.swift; sourceTree = "<group>"; };
+		DCD7FBAB2C6A8CD800E26DE3 /* Notification_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification_view.swift; sourceTree = "<group>"; };
+		DCD7FBAD2C6A8CE900E26DE3 /* Notification_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification_Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC9B25E52C6AE26300F98619 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */,
+				DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */,
+				DC9B25EA2C6AE36200F98619 /* PostsGridView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DC9B25E62C6AE26B00F98619 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC9B25EE2C6D5DE700F98619 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC9B25F12C6D5E1300F98619 /* Feed_View_Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC9B25EF2C6D5DE900F98619 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7FBA32C69B77400E26DE3 /* Feed_View.swift */,
+				DCD7FBA52C69BB3100E26DE3 /* Feed_Cell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC9B25F02C6D5DEA00F98619 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		DCD7FB742C6989DA00E26DE3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +156,7 @@
 		DCD7FB932C6989F200E26DE3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DC9B25EC2C6D5A7800F98619 /* Post_Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -134,6 +203,7 @@
 		DCD7FB982C698A2D00E26DE3 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				DCD7FBA12C698B7900E26DE3 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -141,6 +211,8 @@
 		DCD7FB992C698A2E00E26DE3 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				DCD7FBA72C6A794600E26DE3 /* Friends_search_view.swift */,
+				DCD7FBA92C6A7C5B00E26DE3 /* User_Cell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -156,6 +228,8 @@
 		DCD7FB9B2C698A3000E26DE3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				DC9B25E62C6AE26B00F98619 /* Views */,
+				DC9B25E52C6AE26300F98619 /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -163,6 +237,8 @@
 		DCD7FB9C2C698A3100E26DE3 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				DCD7FBAB2C6A8CD800E26DE3 /* Notification_view.swift */,
+				DCD7FBAD2C6A8CE900E26DE3 /* Notification_Cell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -170,6 +246,9 @@
 		DCD7FB9D2C698A3200E26DE3 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				DC9B25F02C6D5DEA00F98619 /* Service */,
+				DC9B25EF2C6D5DE900F98619 /* View */,
+				DC9B25EE2C6D5DE700F98619 /* Model */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -265,8 +344,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD7FBA62C69BB3100E26DE3 /* Feed_Cell.swift in Sources */,
+				DC9B25EB2C6AE36200F98619 /* PostsGridView.swift in Sources */,
+				DCD7FBA42C69B77400E26DE3 /* Feed_View.swift in Sources */,
+				DC9B25E42C6ADF2000F98619 /* UserProfileHeaderView.swift in Sources */,
 				DCD7FB832C6989DA00E26DE3 /* ContentView.swift in Sources */,
+				DC9B25ED2C6D5A7800F98619 /* Post_Model.swift in Sources */,
+				DCD7FBAC2C6A8CD800E26DE3 /* Notification_view.swift in Sources */,
 				DCD7FB812C6989DA00E26DE3 /* Tik_Tok_CloneApp.swift in Sources */,
+				DCD7FBA82C6A794600E26DE3 /* Friends_search_view.swift in Sources */,
+				DCD7FBAA2C6A7C5B00E26DE3 /* User_Cell.swift in Sources */,
+				DC9B25E22C6ADDC500F98619 /* CurrentUserProfileView.swift in Sources */,
+				DC9B25F22C6D5E1300F98619 /* Feed_View_Model.swift in Sources */,
+				DC9B25E82C6AE2A700F98619 /* UserStatesView.swift in Sources */,
+				DCD7FBAE2C6A8CE900E26DE3 /* Notification_Cell.swift in Sources */,
+				DCD7FBA22C698B7900E26DE3 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
