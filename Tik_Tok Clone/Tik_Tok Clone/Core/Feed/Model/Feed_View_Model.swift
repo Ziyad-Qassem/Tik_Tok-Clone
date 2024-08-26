@@ -9,12 +9,12 @@ import Foundation
 class FeedViewModel :ObservableObject {
     @Published var posts = [Post]()
      let videoUrls : [String]  =  [
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" ,
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" ,
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" ,
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" ,
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+        "https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4",
+    "https://videos.pexels.com/video-files/4434242/4434242-uhd_1440_2560_24fps.mp4" ,
+    "https://videos.pexels.com/video-files/2759477/2759477-uhd_2560_1440_30fps.mp4" ,
+    "https://videos.pexels.com/video-files/8859849/8859849-uhd_1440_2560_25fps.mp4",
+    "https://videos.pexels.com/video-files/14538114/14538114-hd_1080_1920_24fps.mp4" ,
+    "https://videos.pexels.com/video-files/7297870/7297870-hd_1080_1920_30fps.mp4"
     ]
     
     init( ){
