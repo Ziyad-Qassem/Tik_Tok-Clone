@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4F8E672C7D3E9300429028 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4F8E662C7D3E9300429028 /* CustomVideoPlayer.swift */; };
 		DC9B25E22C6ADDC500F98619 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */; };
 		DC9B25E42C6ADF2000F98619 /* UserProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */; };
 		DC9B25E82C6AE2A700F98619 /* UserStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC4F8E662C7D3E9300429028 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		DC9B25E12C6ADDC500F98619 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		DC9B25E32C6ADF2000F98619 /* UserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeaderView.swift; sourceTree = "<group>"; };
 		DC9B25E72C6AE2A700F98619 /* UserStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatesView.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		DCD7FB9E2C698A3300E26DE3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DC4F8E662C7D3E9300429028 /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD7FBA62C69BB3100E26DE3 /* Feed_Cell.swift in Sources */,
+				DC4F8E672C7D3E9300429028 /* CustomVideoPlayer.swift in Sources */,
 				DC9B25EB2C6AE36200F98619 /* PostsGridView.swift in Sources */,
 				DCD7FBA42C69B77400E26DE3 /* Feed_View.swift in Sources */,
 				DC9B25E42C6ADF2000F98619 /* UserProfileHeaderView.swift in Sources */,
