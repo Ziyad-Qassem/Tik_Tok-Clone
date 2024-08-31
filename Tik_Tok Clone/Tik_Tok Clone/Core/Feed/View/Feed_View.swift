@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Feed_View: View {
     @StateObject var viewModel = FeedViewModel()
+
     var body: some View {
         ScrollView{
             LazyVStack(spacing : 0){
