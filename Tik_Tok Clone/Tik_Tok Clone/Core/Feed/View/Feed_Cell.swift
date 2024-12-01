@@ -99,7 +99,7 @@ struct Feed_Cell: View {
                
             }.padding(.bottom , 80)
         }.onAppear{
-            // player.play()
+             player.play()
         }
     }
 }
